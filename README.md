@@ -1,0 +1,1 @@
+# SQL-Window-Functions-used-for-Adventure-Works
