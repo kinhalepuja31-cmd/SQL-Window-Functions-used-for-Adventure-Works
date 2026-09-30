@@ -7,6 +7,8 @@ The task focuses on executing advanced transactional data exploration and trend 
 
 
 **Objective**
+
+
 The main objectives of this task are:
 •	Practice using window functions to solve complex business queries
 •	Explore retail sales and customer data across multiple linked tables
@@ -17,11 +19,15 @@ The main objectives of this task are:
 
 
 ** Tools Used**
+
+
 •	Microsoft SQL Server Management Studio (SSMS)
 •	T-SQL (Transact-SQL)_
 
 
 **Dataset**
+
+
 The project uses a multi-year retail sales and customer database consisting of linked data tables.
 Dataset Tables
 •	dbo.Customers (Demographics & Income records)
@@ -33,6 +39,8 @@ Dataset Tables
 
 
 ** Window Functions Applied**
+
+
 Individual targeted scripts were compiled and structured across multiple analytical exercises:
 1.	ROW_NUMBER: Sequential numbering of products within category boundaries sorted by price.
 2.	RANK: Global customer wealth positioning showcasing gap-handling on matching records.
@@ -41,6 +49,8 @@ Individual targeted scripts were compiled and structured across multiple analyti
 5.	LEAD: Dynamic forward-looking career trajectory evaluations.
 
  **Analytical Core Technical Notes**
+
+ 
 •	ROW_NUMBER(): Imposes a strict unique, sequential integer sequence string. Identical values receive consecutive numbers arbitrarily without duplicate numbering.
 •	RANK(): Duplicates ranking positions across matching numerical rows but explicitly skips subsequent positions relative to the tie count (e.g., 1, 2, 2, 4).
 •	DENSE_RANK(): Duplicates ranking positions across matching numerical rows but preserves perfectly sequential rank integers without skipping steps (e.g., 1, 2, 2, 3).
