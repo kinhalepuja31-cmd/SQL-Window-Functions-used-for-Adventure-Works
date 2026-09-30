@@ -1,7 +1,13 @@
 # SQL-Window-Functions-used-for-Adventure-Works
 
+
+
 Advanced Data Analysis Using SQL Window Functions
+
+
 ** About the Project**
+
+
 This project was completed as part of the VEDA Technology Data Analytics Track – Level 1, Day 12.
 The task focuses on executing advanced transactional data exploration and trend tracking using Microsoft SQL Server Management Studio (SSMS) by applying Window Functions across multi-year retail datasets.
 
